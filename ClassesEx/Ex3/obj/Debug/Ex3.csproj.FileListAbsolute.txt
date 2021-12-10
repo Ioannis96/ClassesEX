@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\ClassesEx\Ex3\bin\Debug\Ex3.exe.config
+C:\Users\User\source\repos\ClassesEx\Ex3\bin\Debug\Ex3.exe
+C:\Users\User\source\repos\ClassesEx\Ex3\bin\Debug\Ex3.pdb
+C:\Users\User\source\repos\ClassesEx\Ex3\obj\Debug\Ex3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ClassesEx\Ex3\obj\Debug\Ex3.exe
+C:\Users\User\source\repos\ClassesEx\Ex3\obj\Debug\Ex3.pdb

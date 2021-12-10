@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\ClassesEx\ClassesEx\bin\Debug\ClassesEx.exe.config
+C:\Users\User\source\repos\ClassesEx\ClassesEx\bin\Debug\ClassesEx.exe
+C:\Users\User\source\repos\ClassesEx\ClassesEx\bin\Debug\ClassesEx.pdb
+C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\Ex1.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\Ex1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\ClassesEx.exe
+C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\ClassesEx.pdb
