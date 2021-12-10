@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,36 @@ namespace Ex5
 
             Controller ct = new Controller();
 
-            ct.Load(myCd);
+
+            ConsoleKeyInfo cki;
+            do
+            {
+                Console.WriteLine("press mpla for mpla");
+                Console.WriteLine("press mpla for mpla");
+                Console.WriteLine("press mpla for mpla");
+
+                cki = Console.ReadKey();
+
+                switch (cki.Key)
+                {
+                    case ConsoleKey.Q:
+                        //show list
+                        break;
+
+                    case ConsoleKey.L:
+                        //selection
+                        ct.Load(myCd);
+                        break;
+
+                    case ConsoleKey.X:
+                        Console.WriteLine("See you later..");
+                        break;
+                }
+
+                Console.WriteLine();
+            } while (cki.Key != ConsoleKey.X && cki.Key != ConsoleKey.L);
+
+            //epilogh gia to LOADED CD ----------------------------------------------------- //
             ct.ShowInfo();
             ct.Play();
 

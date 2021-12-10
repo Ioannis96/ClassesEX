@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,27 +36,75 @@ namespace Ex5
             }
             else
             {
+                ConsoleKeyInfo cki;
                 int i = 0;
-                while (!(Console.KeyAvailable && Console.ReadKey(true).Key == ConsoleKey.A))
+                do
                 {
-                    Console.WriteLine("lalal");
-                }
+                    Console.WriteLine($"Playing: {cd.GetTracks()[i].GetTitle()}");
+
+                    Thread.Sleep(250);
+
+                    cki = Console.ReadKey(true);
+
+                    if (cki.Key == ConsoleKey.B || cki.Key == ConsoleKey.S || cki.Key == ConsoleKey.N)
+                    {
+                        switch (cki.Key)
+                        {
+                            case ConsoleKey.B:
+                                i = Previous(i);
+                                break;
+
+                            case ConsoleKey.N:
+                                i = Next(i, cd.GetNumberOfTracks());
+                                break;
+
+                            case ConsoleKey.S:
+                                Stop();
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\nInvaid Key\n");
+                        Console.ResetColor();
+                    }
+
+                } while (cki.Key != ConsoleKey.S);
             }
         }
 
         public void Stop()
         {
-
+            Console.WriteLine("Stopped");
         }
 
-        public void Next()
+        public int Next(int n, int trackNum)
         {
+            Console.WriteLine("Next Song..");
 
+            if (n == trackNum-1)
+            {
+                return 0;
+            }
+            else
+            {
+                return n+1;
+            }
         }
 
-        public void Previous()
+        public int Previous(int n)
         {
+            Console.WriteLine("Previous Song..");
 
+            if (n == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                return n - 1;
+            }
         }
     }
 

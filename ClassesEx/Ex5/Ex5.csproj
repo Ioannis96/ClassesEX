@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cd.cs" />
+    <Compile Include="UserMenu.cs" />
     <Compile Include="Controller.cs" />
     <Compile Include="Track.cs" />
     <Compile Include="Program.cs" />

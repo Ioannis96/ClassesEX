@@ -5,3 +5,10 @@ C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\Ex1.csproj.AssemblyRefe
 C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\Ex1.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\ClassesEx.exe
 C:\Users\User\source\repos\ClassesEx\ClassesEx\obj\Debug\ClassesEx.pdb
+D:\GITS\ClassesEX\ClassesEx\ClassesEx\bin\Debug\ClassesEx.exe.config
+D:\GITS\ClassesEX\ClassesEx\ClassesEx\bin\Debug\ClassesEx.exe
+D:\GITS\ClassesEX\ClassesEx\ClassesEx\bin\Debug\ClassesEx.pdb
+D:\GITS\ClassesEX\ClassesEx\ClassesEx\obj\Debug\Ex1.csproj.AssemblyReference.cache
+D:\GITS\ClassesEX\ClassesEx\ClassesEx\obj\Debug\Ex1.csproj.CoreCompileInputs.cache
+D:\GITS\ClassesEX\ClassesEx\ClassesEx\obj\Debug\ClassesEx.exe
+D:\GITS\ClassesEX\ClassesEx\ClassesEx\obj\Debug\ClassesEx.pdb
