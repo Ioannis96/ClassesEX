@@ -1,0 +1,7 @@
+D:\GITS\ClassesEX\ClassesEx\Ex8\bin\Debug\Ex8.exe.config
+D:\GITS\ClassesEX\ClassesEx\Ex8\bin\Debug\Ex8.exe
+D:\GITS\ClassesEX\ClassesEx\Ex8\bin\Debug\Ex8.pdb
+D:\GITS\ClassesEX\ClassesEx\Ex8\obj\Debug\Ex8.csproj.AssemblyReference.cache
+D:\GITS\ClassesEX\ClassesEx\Ex8\obj\Debug\Ex8.csproj.CoreCompileInputs.cache
+D:\GITS\ClassesEX\ClassesEx\Ex8\obj\Debug\Ex8.exe
+D:\GITS\ClassesEX\ClassesEx\Ex8\obj\Debug\Ex8.pdb
