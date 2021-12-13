@@ -19,6 +19,7 @@ namespace Ex5
             Track t6 = new Track("Lagoon", 185);
             Track t7 = new Track("Scotland", 185);
 
+
             Track[] tracks = new Track[] { t1, t2, t3, t4, t5, t6, t7 };
 
             Cd myCd = new Cd("Animals and Shizz", tracks);
